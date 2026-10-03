@@ -2,7 +2,7 @@
 
 A small Arduino-based spaceship control panel inspired by sci-fi interfaces.
 
-The project is being built around an Arduino Uno and is designed to combine a functional clock with simple visual controls and effects.
+The project is being built around an Arduino Uno and combines a real-time clock with a 16x2 LCD and visual controls.
 
 ## Current Features
 
@@ -37,7 +37,20 @@ The project is being built around an Arduino Uno and is designed to combine a fu
 
 The LCD and DS1302 RTC are currently working. The remaining controls and LED effects will be added as development continues.
 
+## Progress Photos
+
+### LCD Test
+
+The LCD was tested successfully and displayed the control panel message.
+
+![LCD Test](images/1.jpeg)
+
+### RTC Test
+
+The DS1302 real-time clock was connected to the Arduino and successfully displayed the current time on the LCD.
+
+![RTC Test](images/2.jpeg)
+
 ## Journal
 
 Development notes and progress are documented in [`JOURNAL.md`](JOURNAL.md).
-
